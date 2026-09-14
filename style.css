@@ -60,13 +60,3 @@ a{
 
 }
 
-.m{
-    background-color: rgba(128, 100, 100, 0);
-    width: 37.3rem;
-    height: 100em;
-    margin: 0.5em auto;
-    border-radius: 0.7em;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
