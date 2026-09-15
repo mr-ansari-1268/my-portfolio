@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 *{
     margin: 0;
@@ -60,3 +61,17 @@ a{
 
 }
 
+.footer-container {
+    background-color: rgba(0, 0, 0, 0.911);
+    color: rgb(168, 218,220);
+    font-family: 'Roboto Mono', cursive;
+    height: 1.5em;
+    padding-left: 1em;
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+
+}
