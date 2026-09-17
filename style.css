@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -11,20 +14,23 @@ body {
 .header {
     background-color: #1e293b;
     color: #fff;
-    padding: 20px;
+    padding: 7.3px;
+    margin-bottom: -1px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.5em;
     border-bottom: 2px solid #38bdf8;
 }
 
 .container {
     background-color: #13111100;
-    height: 44rem;
+    margin-top: 5px;
+    height: 38rem;
     width: 100%;
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-auto-flow: row;
     gap: 20px;
 
@@ -32,7 +38,7 @@ body {
 
 .stage {
     background-color: #1e293b;
-    color: #fff;
+    color: #f8fafc;
     border: 1px solid #94a3b8;
     border-radius: 10px;
     box-shadow: 0 6px 9px rgba(0, 0, 0, 0.753);
@@ -48,6 +54,38 @@ body {
 #intro {
     grid-column: 1 / 3;
     grid-row: 1 / 4;
+    background-image: url("/My\ Portfolio\ Website/image/intro-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    h2 {
+        font-family: Space Grotesk;
+        font-size: 30px;
+    }
+    p {
+        font-family: JetBrains Mono;
+        font-size: 16px;
+    }
+}
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #aa0000;
+    border-radius: 50%;
+    
+}
+
+.intro-text {
+    margin-left: 20px;
+    text-align: left;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 1);
+    
 }
 
 #about {
